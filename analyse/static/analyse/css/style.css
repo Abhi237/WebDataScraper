@@ -1,0 +1,44 @@
+.fc{
+    height: fit-content;
+}
+
+#datascroller{
+     display: flex;   
+    overflow-x: auto;
+}
+
+
+.ghost{
+    display:none;
+}
+
+datascroller::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color: #CCCCCC;
+}
+
+#datascroller::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#datascroller::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #D62929;
+	background-image: -webkit-linear-gradient(0deg,
+											  transparent,
+											  rgba(0, 0, 0, 0.4) 50%,
+											  transparent,
+											  transparent)
+}
+
+
+
+
+
+
+
